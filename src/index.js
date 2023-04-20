@@ -5,8 +5,8 @@ import ReactDOM from 'react-dom' // nạp thư viện react-dom
 function App() {
     return (
         <div>
-            <h1>Xin chào anh em F8!</h1>
-            <h2>Tôi làm được bạn cũng vậy</h2>
+            <h1 style={{ color: 'green', textAlign: 'center' }}>Xin chào anh em F8!</h1>
+            <h2 style={{ color: 'red', textAlign: 'center' }}>Tôi làm được bạn cũng vậy</h2>
         </div>
     )
 }
